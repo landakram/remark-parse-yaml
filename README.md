@@ -8,11 +8,13 @@ This [remark](https://github.com/wooorm/remark) plugin takes markdown with yaml 
 ```javascript
 const unified = require('unified')
 const markdown = require('remark-parse')
-const taskListPlugin = require('remark-parse-yaml');
+const frontmatter = require('remark-frontmatter')
+const parseFrontmatter = require('remark-parse-yaml');
 
 let processor = unified()
-    .use(markdown, { gfm: true, footnotes: true, yaml: true })
-    .use(yamlPlugin)
+    .use(markdown)
+    .use(frontmatter)
+    .use(parseFrontmatter)
 ```
 
 When the processor is run, `yaml` nodes will now have an additional key, `parsedValue`, 
