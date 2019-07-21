@@ -22,7 +22,7 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "js-yaml": "^3.9.0",
+    "js-yaml": "^3.13.1",
     "unist-util-map": "^1.0.3"
   },
   "devDependencies": {
