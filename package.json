@@ -1,7 +1,7 @@
 {
   "name": "remark-parse-yaml",
   "description": "Parses yaml blocks into structured data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "remark",
     "remark-plugin",
