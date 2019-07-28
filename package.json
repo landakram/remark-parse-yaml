@@ -1,7 +1,7 @@
 {
   "name": "remark-parse-yaml",
   "description": "Parses yaml blocks into structured data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "remark",
     "remark-plugin",
@@ -22,7 +22,7 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "js-yaml": "^3.9.0",
+    "js-yaml": "^3.13.1",
     "unist-util-map": "^1.0.3"
   },
   "devDependencies": {
